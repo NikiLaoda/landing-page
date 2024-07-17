@@ -57,3 +57,15 @@ img {
 
     padding: 86px;
 }
+
+button {
+    background-color: #3882F6;
+    border-color: transparent;
+
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+
+    padding: 8px 24px 8px 24px;
+    border-radius: 8px;
+}
