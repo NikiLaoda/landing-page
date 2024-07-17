@@ -14,9 +14,9 @@ body {
 }
 
 .h3-header {
-    color: white;
+    color: #f9faf8;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .textblock-header {
@@ -25,8 +25,35 @@ body {
     gap: 16px;
 }
 
+.hero-section {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.lg-H1 {
+font-size: 48px;
+font-weight: bolder;
+color: #f9faf8;
+}
+
+.lg-p1 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 a {
     text-decoration: none;
     color: white;
     font-size: 14px;
+}
+
+img {
+    background-color: gray;
+    color: white;
+
+    padding: 86px;
 }
