@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-.header-container {
+.header-section {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -22,7 +22,7 @@ body {
 .textblock-header {
     display: flex;
     flex-direction: row;
-    gap: 8px;
+    gap: 16px;
 }
 
 a {
