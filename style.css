@@ -120,7 +120,37 @@ body {
     font-style: italic;
 }
 
-.author-quote {
+.cta-section {
+    background-color: white;
+    color: white;
+    padding: 72px;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 32px;
+    gap: 32px;
+}
+
+.cta-text {
+    margin: 0;
+}
+
+.cta-p1 {
+    margin: 0;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.cta-button {
+    border: 1px solid white;
+    padding: 6px 32px 6px 32px;
 }
 
 a {
